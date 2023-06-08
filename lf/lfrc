@@ -79,6 +79,7 @@ map ae $wine "$f"
 map . set hidden!
 map dd trash
 map dr restore_trash
+map D delete
 map p paste
 map x cut
 map y copy
