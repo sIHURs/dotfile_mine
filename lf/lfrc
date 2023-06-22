@@ -67,8 +67,8 @@ cmd open ${{
 }} 
 
 # Bindings
-map d
-map m
+# map d
+# map m
 
 map c $vscodium "$f"
 
