@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+export PATH="$HOME/.emacs.d/bin:$PATH"
+
 # run source ~/.config/fish/config.fish to reload the config.fish file
 
 set fish_greeting ""              # Supresses fish's intro message

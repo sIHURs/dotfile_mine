@@ -66,9 +66,9 @@ cmd open ${{
     esac    
 }} 
 
-# Bindings
-# map d
-# map m
+Bindings
+map d
+map m
 
 map c $vscodium "$f"
 
