@@ -24,7 +24,8 @@ alias ll "ls -l"
 alias lla "ll -A"
 alias g git
 alias c "clear"
-alias ide "tmux split-window -v -p 30; tmux split-window -h -p 66; tmux split-window -h -p 50"
+# alias ide "tmux split-window -v -p 30; tmux split-window -h -p 66; tmux split-window -h -p 50"
+alias ide "tmux split-window -v -p 30" # when run the command above, the prompt in some pane show wrong, odd problem, maybe its caused by the tide plugin
 
 
 command -qv nvim && alias vim nvim

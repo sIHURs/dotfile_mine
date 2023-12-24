@@ -104,6 +104,14 @@ return packer.startup(function(use)
   -- git signs plugin
   use("lewis6991/gitsigns.nvim")
 
+  -- vim surround
+  use({
+    "ur4ltz/surround.nvim",
+    config = function()
+      require("surround").setup({mapping_style = "sandwich"})
+    end,
+  })
+
   if packer_bootstrap then
     require("packer").sync()
   end
